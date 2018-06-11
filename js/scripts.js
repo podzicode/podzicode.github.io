@@ -71,6 +71,22 @@ function ShowSkill(){
 	
 
 }
+var clickseCount=0;
+function ShowEducation(){
+	clickseCount++;
+	if((clickseCount%2)!=0){
+			$("#csul").collapse('show');
+			$("#vitv").collapse('show');
+			$("#projexp3").removeClass('fa-plus');
+			$("#projexp3").addClass('fa-minus');
+		}
+		if((clickseCount%2)==0){
+			$("#csul").collapse('hide');
+			$("#vitv").collapse('hide');
+			$("#projexp3").removeClass('fa-minus');
+			$("#projexp3").addClass('fa-plus');
+		}
+}
 (function(global){
 	var sp={};
 	var main_content="codesnippets/main_content.html";
