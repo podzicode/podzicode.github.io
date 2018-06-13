@@ -154,7 +154,42 @@ hr{
 }
 
 /**** Media Queries****/
-@media(min-width: 1200px){
+@media(min-width: 1600px){
+	#logo-img{
+	border:solid;
+	border-radius: 150%;
+	text-decoration: none;
+	font-size: 2vw;
+	color:#3f4042;
+	width:80px;
+	height:80px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+#logo-img:hover{
+	background-color: gray;
+	opacity: 0.6;
+	color:white;
+}
+.navbar-header a{
+	text-decoration: none;
+}
+	.jumbotron{
+		background: url('../pfi.jpg') no-repeat;
+		height: 300px;
+		box-shadow: 0 0 50px #484c51;
+		border:2px solid #484c51 ;
+	}
+	.bio{
+	position: relative;
+	left:46%;
+	top:20%;
+	margin:0;
+	width:50%;
+	height:350px;
+}
+}
+@media(min-width: 1200px) and (max-width: 1599px){
 	#logo-img{
 	border:solid;
 	border-radius: 150%;
