@@ -115,6 +115,11 @@ div{
 }
 #Skillset{
 	list-style:none;
+	font-family: 'Oxygen mono',sans-serif;
+	color:#3f4042;
+}
+#Skillset li{
+	color:#3f4042;	
 }
 .cc{
 	margin: auto;
@@ -123,7 +128,13 @@ div{
 	margin-bottom: 35px;
 }
 #Domains,#Address,#Social{
+	font-family: 'Oxygen mono',sans-serif;
 	line-height: 2;
+}
+#Social a:hover{
+	color: black;
+	text-decoration: none;
+
 }
 #Domains > span, #Address >span, #Social >span{
 font-size: 1.3em;
@@ -132,10 +143,9 @@ font-size: 1.3em;
 	margin-top: 0px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	color:black;
+	color:#3f4042;
 	border-top: 0;
 	background-color: white;
-
 }
 .panel-footer section{
 	text-align: center;
