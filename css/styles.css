@@ -514,6 +514,7 @@ color:#3f4042;
 	font-weight: bolder;
 	width:40px;
 	height:40px;
+	cursor:pointer;
 	font-size: 0.4em;
 	margin-top: 0px;
 	margin-left: 5px;
@@ -535,12 +536,14 @@ color:#3f4042;
 	font-size: 0.4em;
 	margin-top: 0px;
 	margin-left: 5px;
+	cursor:pointer;
 	position: relative;
 	float:left;
 }
 #projexp1:hover{
 	background-color: black;
 	opacity: 0.4;
+	cursor:pointer;
 	color: white;
 }
 #projexp2{
@@ -553,12 +556,14 @@ color:#3f4042;
 	font-size: 0.4em;
 	margin-top: 0px;
 	margin-left: 5px;
+	cursor:pointer;
 	position: relative;
 	float:left;
 }
 #projexp2:hover{
 	background-color: black;
 	opacity: 0.4;
+	cursor:pointer;
 	color: white;
 }
 #projexp3{
@@ -568,6 +573,7 @@ color:#3f4042;
 	font-weight: bolder;
 	width:40px;
 	height:40px;
+	cursor:pointer;
 	font-size: 0.4em;
 	margin-top: 0px;
 	margin-left: 5px;
@@ -577,6 +583,7 @@ color:#3f4042;
 #projexp3:hover{
 	background-color: black;
 	opacity: 0.4;
+	cursor:pointer;
 	color: white;
 }
 #Education{
